@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyLearn</title>
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--CSS do projeto-->
+    <link rel="stylesheet" type="text/css" href="asset/public/styles/home.css" media="screen" />
+    <!--Google fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><h4 class="namesite">EasyLearn</h4></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./conteudos.html">Conteúdos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-md">
+      <div class="card" style="max-width: 100%;">
+        <div class="card-body">
+          <div class="card-1">
+            <h3 class="card-title">Conteúdos de tecnologia</h3>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Acessível a todos</h6>
+            <p class="card-text">Bem-vindo ao EasyLearn, o seu destino para aprender sobre tecnologia de forma fácil e gratuita! Aqui, você encontrará uma variedade de conteúdos de alta qualidade sobre os mais diversos tópicos de tecnologia,principalmente programação</p>
+            <a href="#" class="card-link">Saiba mais</a>
+          </div>
+          <img src="asset/img/img1.jpg" width="100%" height="100%" alt="Imagem ilustrativa de código"/>
+        </div>
+      </div>
+    </div>
+    <div class="container-md">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asset/img/logica.png" class="d-block w-100" alt="imagem conteúdo de logica de programação">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lógica da programação</h5>
+              <p>Este conteúdo de lógica de programação ensina os conceitos fundamentais para o desenvolvimento de algoritmos e resolução de problemas computacionais.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </div>
+    <div class="container-md">
+      <div class="card-contador"><h3>Total de visitas</h3>
+        <div text-align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-cZ9AdZ213yB261Ax-22.gif' border='0' alt='estatisticas gratis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=cZ9AdZ213yB261Ax'></script></div>
+      </div>
+    </div>
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; EasyLearn</small>
+      </div>
+    </footer>
+    <!--JavaScript Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>

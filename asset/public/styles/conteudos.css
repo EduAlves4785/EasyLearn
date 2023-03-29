@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: RGB(25 25 25);
+}
+
+/*NavBar*/
+
+.container-fluid>a{
+    color: RGB(255 217 0);
+}
+
+.container-fluid>a:hover{
+    color: RGB(255 217 0);
+}
+
+#navbarNav>ul>li{
+    margin-left: .5rem;
+}
+
+#navbarNav>ul>li:hover{
+    transition:ease-in .3s;
+    border-bottom:1px solid RGB(255 217 0);
+}
+
+.namesite{
+    margin-right: 3rem;
+}
+
+.navbar{
+    margin-bottom: 5rem;
+}
+
+/*Content*/
+
+.container-md{
+    padding: 1rem;
+}
+
+.card{
+    border: none;
+    border-radius: 5px;
+}
+
+.card-body{
+    opacity: .85;
+    background-color: black;
+    color: white;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-body-1{
+    opacity: .85;
+    color: white;
+    background-color:black;
+    padding: 1rem;
+}
+
+.card-body-1>a{
+    background-color: RGB(180 153 0);
+    color: black;
+    border: 0;
+}
+
+.card-body-1>a:hover{
+    transition: ease-in .2s;
+    background-color: RGB(255 217 0);
+    color: black;
+}
+
+@media (max-width: 900px){
+    .container-md{
+        margin-bottom: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*Rodapé*/
+
+
+footer{
+    margin-top: 3rem;
+}

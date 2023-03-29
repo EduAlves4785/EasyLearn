@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: RGB(25 25 25);
+}
+
+/*NavBar*/
+
+.container-fluid>a{
+    color: RGB(255 217 0);
+}
+
+.container-fluid>a:hover{
+    color: RGB(255 217 0);
+}
+
+#navbarNav>ul>li{
+    margin-left: .5rem;
+}
+
+#navbarNav>ul>li:hover{
+    transition:ease-in .3s;
+    border-bottom:1px solid RGB(255 217 0);
+}
+
+.namesite{
+    margin-right: 3rem;
+}
+
+.navbar{
+    margin-bottom: 5rem;
+}
+
+/*Content*/
+
+.container-md{
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+.card{
+    border: none;
+    border-radius: 5px;
+}
+
+.card-1>a{
+    padding: .8rem;
+    border-radius: 5px;
+    background-color: RGB(255 217 0);
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top:6rem;
+    transition: ease-in .3s;
+}
+
+.card-1>a:hover{
+    box-shadow: 0px 0px 8px 1px RGB(110 110 110);
+}
+
+.card-body{
+    opacity: .85;
+    background-color: black;
+    color: white;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-body>img{
+    border-radius: 8px;
+}
+
+.carousel-item>img{
+    border-radius: 5px;
+}
+
+.card-contador>h3{
+    color:RGB(255 217 0) ;
+}
+
+.card-contador{
+    background-color: rgb(39,39,39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 25%;
+    
+}
+
+@media (max-width: 900px)
+{
+    .card-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 75vh;
+    }
+
+    .card-1{
+        margin-bottom: 10rem;
+    }
+
+    .card-1>a{
+        margin: 0;
+    }
+
+    .container-md{
+        max-height: 100%;
+        margin-bottom: 8rem;
+    }
+}
+
+/*Rodapé*/
+
+
+footer{
+    margin-top: 3rem;
+}
