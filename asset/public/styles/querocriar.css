@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: RGB(25 25 25);
+}
+
+/*NavBar*/
+
+.container-fluid>a{
+    color: RGB(255 217 0);
+}
+
+.container-fluid>a:hover{
+    color: RGB(255 217 0);
+}
+
+#navbarNav>ul>li{
+    margin-left: .5rem;
+}
+
+#navbarNav>ul>li:hover{
+    transition:ease-in .3s;
+    border-bottom:1px solid RGB(255 217 0);
+}
+
+.namesite{
+    margin-right: 3rem;
+}
+
+.navbar{
+    margin-bottom: 5rem;
+}
+
+/*Content*/
+
+.container-md{
+    padding: 1rem;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.card{
+    background-color: gray;
+    opacity: .85;
+}
+
+
+
+@media (max-width: 900px)
+{
+
+}
+
+/*Rodapé*/
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0rem;
+}

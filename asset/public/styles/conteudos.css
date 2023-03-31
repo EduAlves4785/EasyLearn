@@ -83,5 +83,7 @@ body{
 
 
 footer{
-    margin-top: 3rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
