@@ -36,11 +36,22 @@ body{
 
 .container-md{
     padding: 1rem;
+    width: 100%;
+    display: grid;gap: 8px;
+    grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
 }
 
 .card{
     border: none;
-    border-radius: 5px;
+}
+
+.card>button{
+    background-color: rgb(199, 199, 90);
+}
+
+.card>button:hover{
+    background-color: RGB(255 217 0);
+    transition: all 150ms ease-in-out;
 }
 
 .card-body{
